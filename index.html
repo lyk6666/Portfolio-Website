@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <span class="brand-name">Your Name</span>
+        <span class="brand-role">Portfolio</span>
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#internship">Internship</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="page-wrapper">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <!-- Replace with your own photo -->
+        <div class="profile-photo">
+          <img src="your-photo.jpg" alt="Photo of Your Name" />
+        </div>
+        <h1 class="profile-name">Your Name</h1>
+        <p class="profile-title">Your Role / Major</p>
+        <p class="profile-summary">
+          Brief one-to-two line summary about who you are, your interests,
+          and what you’re passionate about.
+        </p>
+      </div>
+
+      <div class="contact">
+        <h2>Contact</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></li>
+          <li><strong>Phone:</strong> +65 1234 5678</li>
+          <li><strong>Location:</strong> Singapore</li>
+          <li><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/yourprofile</a></li>
+          <li><strong>GitHub:</strong> <a href="#" target="_blank">github.com/yourusername</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Right Content -->
+    <main class="content">
+      <!-- About Me -->
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+          Write a detailed introduction here: your background, interests, skills,
+          and what kind of opportunities you’re looking for.
+        </p>
+      </section>
+
+      <!-- News -->
+      <section id="news" class="section">
+        <h2>News</h2>
+        <ul class="timeline">
+          <li>
+            <span class="timeline-date">Nov 2025</span>
+            <p>Started working on my personal portfolio website.</p>
+          </li>
+          <li>
+            <span class="timeline-date">Oct 2025</span>
+            <p>Completed a major project on [project topic].</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="item">
+          <h3>University Name</h3>
+          <p class="item-meta">Degree • 2022 – 2026</p>
+          <p>
+            Short description of your program, key modules, achievements or GPA.
+          </p>
+        </div>
+        <div class="item">
+          <h3>Previous Institution</h3>
+          <p class="item-meta">Qualification • 2019 – 2022</p>
+          <p>
+            Short description of what you studied and notable achievements.
+          </p>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications" class="section">
+        <h2>Publications</h2>
+        <ol class="pub-list">
+          <li>
+            <strong>Title of Paper 1</strong><br />
+            <span class="pub-meta">Author Name, Conference / Journal, Year</span><br />
+            <a href="#" target="_blank">Link to paper</a>
+          </li>
+          <li>
+            <strong>Title of Paper 2</strong><br />
+            <span class="pub-meta">Author Name, Conference / Journal, Year</span><br />
+            <a href="#" target="_blank">Link to paper</a>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Internship -->
+      <section id="internship" class="section">
+        <h2>Internship</h2>
+        <div class="item">
+          <h3>Company Name – Role</h3>
+          <p class="item-meta">Month Year – Month Year</p>
+          <ul>
+            <li>Bullet about what you did and what you achieved.</li>
+            <li>Another bullet about tools/technologies used.</li>
+            <li>Any measurable impact or results.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="item">
+          <h3>Project Name</h3>
+          <p class="item-meta">Tech stack: HTML, CSS, JavaScript</p>
+          <p>
+            Short description of the project: what problem it solves, your role,
+            and interesting challenges.
+          </p>
+          <a href="#" target="_blank">View project</a>
+        </div>
+
+        <div class="item">
+          <h3>Another Project</h3>
+          <p class="item-meta">Tech stack: React, Node.js, etc.</p>
+          <p>
+            Another project description. You can list more projects here.
+          </p>
+          <a href="#" target="_blank">View project</a>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="item">
+          <h3>Job / Role</h3>
+          <p class="item-meta">Organization • Month Year – Present</p>
+          <ul>
+            <li>Responsibility or achievement 1.</li>
+            <li>Responsibility or achievement 2.</li>
+            <li>Responsibility or achievement 3.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
