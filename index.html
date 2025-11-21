@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My Portfolio</title>
+  <title>Li Yikai</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/tabIcon.png" />
 </head>
 <body>
   <!-- Top Navigation -->
   <header class="top-nav">
     <div class="nav-inner">
       <div class="brand">
-        <span class="brand-name">Your Name</span>
-        <span class="brand-role">Portfolio</span>
+        <span class="brand-name">Li Yikai</span>
+        <span class="brand-role">Year 3 Computer Science Undergraduate</span>
       </div>
 
       <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -38,7 +39,7 @@
       <div class="profile">
         <!-- Replace with your own photo -->
         <div class="profile-photo">
-          <img src="your-photo.jpg" alt="Photo of Your Name" />
+          <img src="assets/yikai.jpg" alt="Yikai" />
         </div>
         <h1 class="profile-name">Li Yikai</h1>
         <p class="profile-title">Nanyang Technological University, Computer Science</p>
@@ -92,7 +93,7 @@
         <p>
           I am currently a Year 3 undergraduate at <a href="https://www.ntu.edu.sg/" target="_blank">Nanyang Technological University</a>, studying in the College of Computing and Data Science with a major in Computer Science. 
           I am actively seeking research opportunities to further develop my academic interests. My current CGPA is 4.64 / 5.00, 
-          which places me on track for Highest Distinction.
+          which places me on track for Highest Distinction. During the summer break after Y1S1, I took the GRE and achieved a score of 324/340.
 
           I have experience in software engineering, databases, object-oriented systems, data analysis, data visualization and have also built personal AI tools and prediction models.
 
@@ -115,13 +116,22 @@
               <p>Completed the first full version of my personal portfolio website 🎈</p>
             </li>
             <li>
-              <span class="timeline-date">8 Aug 2025</span>
+              <span class="timeline-date">9 Nov 2025</span>
+              <p>Completed research on data visualization and development of the DFCollection system 🎈</p>
+            </li>
+            <li>
+              <span class="timeline-date">&nbsp;8 Aug 2025</span>
               <p>Started my second URECA project, focusing on machine learning and genetic algorithms 🔥</p>
             </li>
             <li>
               <span class="timeline-date">21 July 2025</span>
               <p>Commenced my Professional Internship at Centricore 📢</p>
             </li>
+            <li>
+              <span class="timeline-date">15 June 2025</span>
+              <p>Start my Summer Program in University of Tokyo 📢</p>
+            </li>
+
           </div>
         </ul>
       </section>
@@ -208,13 +218,23 @@
         <h2>Projects</h2>
         <div class="projects-grid">
           <div class="project-card">
+            <img class="project-img" src="assets/portfolio.png" alt="Portfolio">
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-desc">
+Constructing a personal portfolio website entirely from scratch using only HTML, CSS, and JavaScript, 
+and successfully deploying it at <u>www.liyikai.com</u>
+            </p>
+            <a class="project-link" href="https://github.com/lyk6666/Portfolio-Website" target="_blank">View project</a>
+          </div>
+
+          <div class="project-card">
             <img class="project-img" src="assets/DFCollection.png" alt="DFCollection">
             <h3 class="project-title">DFCollection</h3>
             <p class="project-desc">
-DFCollection is a scalable system for hierarchical fact exploration. It visualizes global fact distributions, 
-supports efficient navigation across large search spaces, and enables structured analysis through category-based subspaces.
+We developed DFCollection, a scalable visual analytics system for hierarchical fact exploration that visualizes global fact distributions, 
+supports efficient navigation across large search spaces, and enables structured analysis through filter-based subspaces.
             </p>
-            <a class="project-link" href="#" target="_blank">View project</a>
+            <a class="project-link" href="https://github.com/lyk6666/DFCollection" target="_blank">View project</a>
           </div>
 
           <div class="project-card">
@@ -224,7 +244,7 @@ supports efficient navigation across large search spaces, and enables structured
 A full-stack blog platform featuring a React frontend, Node.js/Express backend, and MongoDB database. Users can create, edit, 
 and manage posts with authentication and seamless data handling across the system.
             </p>
-            <a class="project-link" href="#" target="_blank">View project</a>
+            <a class="project-link" href="https://github.com/lyk6666/Blog-Application" target="_blank">View project</a>
           </div>
 
           <div class="project-card">
@@ -234,7 +254,7 @@ and manage posts with authentication and seamless data handling across the syste
 Implemented reinforcement learning techniques on the CartPole environment, exploring state transitions, reward mechanics, 
 and action policies to train an agent capable of stabilizing the system.
             </p>
-            <a class="project-link" href="#" target="_blank">View project</a>
+            <a class="project-link" href="https://github.com/lyk6666/SC3000" target="_blank">View project</a>
           </div>
 
           <div class="project-card">
@@ -244,7 +264,7 @@ and action policies to train an agent capable of stabilizing the system.
 Built a relational database system for TotalInvest as group leader. Designed the ER diagram, normalized schema (3NF), 
 and SQL queries to manage portfolios, transactions, and performance tracking using MS SQL Server.
             </p>
-            <a class="project-link" href="#" target="_blank">View project</a>
+            <a class="project-link" href="https://github.com/lyk6666/SC2207-Database" target="_blank">View project</a>
           </div>
 
           <div class="project-card">
@@ -254,7 +274,7 @@ and SQL queries to manage portfolios, transactions, and performance tracking usi
 Developed a transport planning app using React.js and MongoDB. 
 Integrated public datasets and Google Maps API to provide intelligent route recommendations and an intuitive user interface.
             </p>
-            <a class="project-link" href="#" target="_blank">View project</a>
+            <a class="project-link" href="https://github.com/KeeLekHeng/SC2006_SmartCommute" target="_blank">View project</a>
           </div>
 
           <div class="project-card">
@@ -264,7 +284,7 @@ Integrated public datasets and Google Maps API to provide intelligent route reco
 Created a Java-based CLI Hospital Management System using OOP principles. 
 Managed patients, doctors, appointments, and prescriptions while applying SOLID design and file-based storage without external databases.
             </p>
-            <a class="project-link" href="#" target="_blank">View project</a>
+            <a class="project-link" href="https://github.com/SunnyRaymond/SC2002-HMS" target="_blank">View project</a>
           </div>
 
           <!-- Add more project-card blocks here -->
@@ -274,18 +294,60 @@ Managed patients, doctors, appointments, and prescriptions while applying SOLID 
       <!-- Experience -->
       <section id="experience" class="section">
         <h2>Experience</h2>
+
         <div class="item">
-          <h3>Job / Role</h3>
-          <p class="item-meta">Organization • Month Year – Present</p>
-          <p>hello</p>
+          <h3>URECA (2nd) - Advancing Data Analysis through Artificial Intelligence.</h3>
+          <p class="item-meta">Aug 2025 – Present</p>
+          <p>
+          Exploring the integration of machine learning and reinforcement learning techniques to enhance data analysis workflows 
+          by helping analysts identify meaningful patterns and insights more effectively.
+          </p>
         </div>
+
+        <div class="item">
+          <h3>UoT -  Summer Program</h3>
+          <p class="item-meta">June 2025 - July 2025</p>
+          <p>
+          Attended the University of Tokyo (UoT) GUC short-term summer programme, engaging in academic and cultural activities alongside international participants.
+          </p>
+        </div>
+
+        <div class="item">
+          <h3>NTU - Deep Learning Week</h3>
+          <p class="item-meta">March 2025</p>
+          <p>
+          Participated in NTU Deep Learning Week, applying fundamental 
+          and advanced deep learning techniques to develop a healthcare-focused solution by building and training neural network models to analyze patient data, 
+          identify key risk indicators, and demonstrate how AI-driven prediction can support real-world medical decision-making.
+          </p>
+        </div>
+
+        <div class="item">
+          <h3>IET - Liaison Manager</h3>
+          <p class="item-meta">Sep 2024 – Present</p>
+          <p>
+          Serving as Liaison Manager for the Institution of Engineering and Technology (IET). 
+          Organized guest lectures and networking events connecting students with industry professionals, 
+          including the IET CrossCampus Connect initiative between UOSM and PSB Academy, and coordinated a Mediacorp industry sharing session in October 2025.
+          </p>
+        </div>
+
+        <div class="item">
+          <h3>URECA (1st) - Data Facts Exploration and Visualization</h3>
+          <p class="item-meta">Aug 2024 – June 2025</p>
+          <p>
+          Participated in the URECA undergraduate research programme, focusing on exploratory data analysis and visual analytics. 
+          Proposed a novel data-fact collection approach to improve clustering and hierarchical exploration, and contributed to designing a scalable visualization system.
+          </p>
+        </div>
+
       </section>
     </main>
   </div>
 
-  <footer class="footer">
+  <!-- <footer class="footer">
     <p>© <span id="year"></span> Your Name. All rights reserved.</p>
-  </footer>
+  </footer> -->
 
   <script src="script.js"></script>
 </body>
