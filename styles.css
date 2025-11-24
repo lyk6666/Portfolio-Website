@@ -403,7 +403,7 @@ li {
   width: auto;       /* adjust size */
   height: 90px;
   object-fit: cover; /* crop nicely */
-  border: 1px solid var(--border-subtle);
+  /* border: 1px solid var(--border-subtle); */
 }
 
 /* Publications */
@@ -490,7 +490,7 @@ li {
   width: auto;       /* adjust size */
   height: 90px;
   object-fit: cover; /* crop nicely */
-  border: 1px solid var(--border-subtle);
+  /* border: 1px solid var(--border-subtle); */
 }
 
 .intern-content ul li {
