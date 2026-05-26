@@ -424,8 +424,8 @@ li {
 }
 
 .pub-img img {
-  width: 400px;
-  height: 225px;
+  width: 320px;
+  height: 180px;
   object-fit: cover;      /* crop nicely */
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.24);
 }
@@ -435,7 +435,7 @@ li {
 }
 
 .pub-title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 0 1rem;
   font-weight: 600;
 }
