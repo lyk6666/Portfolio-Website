@@ -266,6 +266,17 @@
       <section id="internship" class="section">
         <h2>Internship</h2>
         <div class="item intern-item">
+          <div class="intern-content">
+            <h3>The Hong Kong University of Science and Technology &mdash; Summer Research Intern</h3>
+            <p class="item-meta">Jun 2026 &ndash; Aug 2026</p>
+            <p>
+              Conducting research under the supervision of Prof. Raymond Chi-Wing Wong on shortest-path computation in Riemannian spaces, including Dijkstra-based methods and indexing techniques such as ALT, Contraction Hierarchies, Hub Labeling, and H2H. Also developing offline schema-tree compression methods that make large NoSQL database schemas compact enough to include in prompts for natural-language querying.
+            </p>
+          </div>
+          <img class="intern-img" src="assets/HKUST.png" alt="The Hong Kong University of Science and Technology logo">
+        </div>
+
+        <div class="item intern-item">
 
           <div class="intern-content">
             <h3>Centricore (S) Pte. Ltd. – Junior Software Engineer</h3>
@@ -284,13 +295,46 @@
 
         </div>
 
-        <!-- You can add more internships below -->
+        <div class="item intern-item">
+          <div class="intern-content">
+            <h3>The University of Tokyo &mdash; Global Unit Courses (GUC)</h3>
+            <p class="item-meta">Jun 2025 &ndash; Jul 2025</p>
+            <p>
+              Completed an intensive course on cosmology and computational scientific analysis, applying programming and statistical methods to explore astronomical data and present research findings.
+            </p>
+          </div>
+          <img class="intern-img" src="assets/UniversityOfTokyo.png" alt="The University of Tokyo logo">
+        </div>
       </section>
 
       <!-- Projects -->
       <section id="projects" class="section">
         <h2>Projects</h2>
         <div class="projects-grid">
+          <div class="project-card">
+            <img class="project-img" src="assets/RiemannianSpaceLab.png" alt="Riemannian Space Lab shortest-path simulation interface">
+            <h3 class="project-title">Riemannian Space Shortest-Path Simulation</h3>
+            <p class="project-desc">
+              Developed an interactive system for computing and simulating shortest paths on discretized Riemannian spaces. The system compares non-indexed and indexed approaches, including Dijkstra, ALT, Contraction Hierarchies (CH), Hub Labeling, and H2H. This project was completed under the supervision of Prof. Raymond Chi-Wing Wong.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <img class="project-img" src="assets/SchemaTreeCompression.png" alt="Schema Compression Workbench interface">
+            <h3 class="project-title">Schema Tree Compression</h3>
+            <p class="project-desc">
+              Built an offline schema-tree compression workflow for 11 datasets, producing compact schema representations that can fit within prompt token budgets for natural-language querying of NoSQL databases. This project was completed under the supervision of Prof. Raymond Chi-Wing Wong.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <img class="project-img" src="assets/FactorMining.png" alt="Factor Mining Visual Analytics system interface">
+            <h3 class="project-title">Factor Mining Visual Analytics System <span class="project-status">Ongoing</span></h3>
+            <p class="project-desc">
+              Developing an interactive visual analytics system that helps experts mine, inspect, and edit quantitative factors through coordinated views and human-in-the-loop refinement. This ongoing collaboration with Fudan University is conducted under the supervision of Prof. Yong Wang.
+            </p>
+          </div>
+
           <div class="project-card">
             <img class="project-img" src="assets/WritingQuality.png" alt="Writing Quality Prediction">
             <h3 class="project-title">SC4000 - Quality Prediction</h3>
@@ -300,23 +344,23 @@
             <a class="project-link" href="https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality" target="_blank">View project</a>
           </div>
 
-          <div class="project-card">
+          <!-- <div class="project-card">
             <img class="project-img" src="assets/FOX.png" alt="FOX">
             <h3 class="project-title">FOX</h3>
             <p class="project-desc">
               FOX is a visual analytics system for interactive exploration of data fact outliers, enabling users to detect, analyze, and interpret anomalous data facts through structured fact grouping, tailored outlier scoring, coordinated visualizations, and LLM-assisted insight summarization.
             </p>
             <a class="project-link" href="" target="_blank">View project</a>
-          </div>
+          </div> -->
                   
-          <div class="project-card">
+          <!-- <div class="project-card">
             <img class="project-img" src="assets/EvoMaestro.png" alt="EvoMaestro">
             <h3 class="project-title">EvoMaestro</h3>
             <p class="project-desc">
               EvoMaestro is an interactive visual analytics system for interpretable and steerable LLM-driven program evolution, enabling users to understand evolutionary strategies, inspect evolving code through coordinated visualizations, and guide the evolution process with human-in-the-loop interventions such as suggestion, merge, and pruning operations.
             </p>
             <a class="project-link" href="https://github.com/ifsheldon/evolvis" target="_blank">View project</a>
-          </div>
+          </div> -->
 
           <div class="project-card">
             <img class="project-img" src="assets/NUHS.png" alt="NUHS">
@@ -338,7 +382,7 @@ and successfully deploying it at <u>www.liyikai.com</u>
             <a class="project-link" href="https://github.com/lyk6666/Portfolio-Website" target="_blank">View project</a>
           </div> -->
 
-          <div class="project-card">
+          <!-- <div class="project-card">
             <img class="project-img" src="assets/DFCollection.png" alt="DFCollection">
             <h3 class="project-title">DFCollection</h3>
             <p class="project-desc">
@@ -346,7 +390,7 @@ We developed DFCollection, a scalable visual analytics system for hierarchical f
 supports efficient navigation across large search spaces, and enables structured analysis through filter-based subspaces.
             </p>
             <a class="project-link" href="https://github.com/lyk6666/DFCollection" target="_blank">View project</a>
-          </div>
+          </div> -->
 
           <!-- <div class="project-card">
             <img class="project-img" src="assets/BlogApplication.png" alt="BlogApplication">
@@ -407,36 +451,10 @@ Managed patients, doctors, appointments, and prescriptions while applying SOLID 
         <h2>Experience</h2>
 
         <div class="item">
-          <h3>HKUST Summer Research Program</h3>
-          <p class="item-meta">Jun 2026 – Aug 2026</p>
-          <p>
-Incoming summer researcher under Raymond Chi-Wing Wong at The Hong Kong University of Science and Technology, focusing on efficient database query algorithms and optimization.
-          </p>
-        </div>
-
-        <div class="item">
           <h3>URECA (2nd) Evolutionary Algorithms and Data Fact Outlier analysis</h3>
           <p class="item-meta">Aug 2025 – Jun 2026</p>
           <p>
 Conducted two research projects under the supervision of Prof. Wang and research staff member Liang: EvoMaestro: Toward Interpretable and Steerable LLM-Driven Program Evolution (submitted to UIST) and FOX: Visual Exploration of Data Fact Outliers (submitted to VIS).
-          </p>
-        </div>
-
-        <div class="item">
-          <h3>The University of Tokyo Global Unit Courses (GUC)</h3>
-          <p class="item-meta">June 2025 - July 2025</p>
-          <p>
-            Completed an intensive course on cosmology and computational scientific analysis, applying programming and statistical methods to explore astronomical data and present research findings.
-          </p>
-        </div>
-
-        <div class="item">
-          <h3>NTU Deep Learning Week</h3>
-          <p class="item-meta">March 2025</p>
-          <p>
-          Participated in NTU Deep Learning Week, applying fundamental 
-          and advanced deep learning techniques to develop a healthcare-focused solution by building and training neural network models to analyze patient data, 
-          identify key risk indicators, and demonstrate how AI-driven prediction can support real-world medical decision-making.
           </p>
         </div>
 

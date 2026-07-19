@@ -487,10 +487,9 @@ li {
 }
 
 .intern-img {
-  width: auto;       /* adjust size */
+  width: 220px;
   height: 90px;
-  object-fit: cover; /* crop nicely */
-  /* border: 1px solid var(--border-subtle); */
+  object-fit: contain;
 }
 
 .intern-content ul li {
@@ -540,6 +539,20 @@ li {
 .project-title {
   font-size: 1.25rem;
   margin: 0 0 0.4rem;
+}
+
+.project-status {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 
 /* Project description */
@@ -638,6 +651,15 @@ li {
 
   .section {
     padding: 1.1rem 1.1rem 1.3rem;
+  }
+
+  .intern-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .intern-img {
+    width: min(100%, 280px);
   }
 }
 
