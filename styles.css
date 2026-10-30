@@ -447,6 +447,21 @@ li {
   flex: 1;
 }
 
+.pub-subsection-title {
+  margin: 1.5rem 0 1rem;
+  font-size: 1.2rem;
+}
+
+.research-item p:last-child {
+  margin-bottom: 0;
+}
+
+.working-title {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
 .pub-title {
   font-size: 1.2rem;
   margin: 0 0 1rem;
@@ -644,8 +659,8 @@ li {
 
 }
 
-/* Small screens: mobile nav, tighter spacing */
-@media (max-width: 720px) {
+/* Compact navigation before the full link row can overflow */
+@media (max-width: 900px) {
   .nav-inner {
     padding-inline: 1rem;
   }
@@ -677,6 +692,11 @@ li {
   .nav-links a {
     width: 100%;
   }
+
+}
+
+/* Small screens: tighter spacing and stacked content */
+@media (max-width: 720px) {
 
   .page-wrapper {
     margin-top: 1rem;
